@@ -1,0 +1,14 @@
+/media/cauan/NotOS/Projects/MobileSort/Diagrama-de-Classe/Diagrama-de-Classe/bin/Debug/net8.0/Diagrama-de-Classe
+/media/cauan/NotOS/Projects/MobileSort/Diagrama-de-Classe/Diagrama-de-Classe/bin/Debug/net8.0/Diagrama-de-Classe.deps.json
+/media/cauan/NotOS/Projects/MobileSort/Diagrama-de-Classe/Diagrama-de-Classe/bin/Debug/net8.0/Diagrama-de-Classe.runtimeconfig.json
+/media/cauan/NotOS/Projects/MobileSort/Diagrama-de-Classe/Diagrama-de-Classe/bin/Debug/net8.0/Diagrama-de-Classe.dll
+/media/cauan/NotOS/Projects/MobileSort/Diagrama-de-Classe/Diagrama-de-Classe/bin/Debug/net8.0/Diagrama-de-Classe.pdb
+/media/cauan/NotOS/Projects/MobileSort/Diagrama-de-Classe/Diagrama-de-Classe/obj/Debug/net8.0/Diagrama-de-Classe.GeneratedMSBuildEditorConfig.editorconfig
+/media/cauan/NotOS/Projects/MobileSort/Diagrama-de-Classe/Diagrama-de-Classe/obj/Debug/net8.0/Diagrama-de-Classe.AssemblyInfoInputs.cache
+/media/cauan/NotOS/Projects/MobileSort/Diagrama-de-Classe/Diagrama-de-Classe/obj/Debug/net8.0/Diagrama-de-Classe.AssemblyInfo.cs
+/media/cauan/NotOS/Projects/MobileSort/Diagrama-de-Classe/Diagrama-de-Classe/obj/Debug/net8.0/Diagrama-de-Classe.csproj.CoreCompileInputs.cache
+/media/cauan/NotOS/Projects/MobileSort/Diagrama-de-Classe/Diagrama-de-Classe/obj/Debug/net8.0/Diagrama-de-Classe.dll
+/media/cauan/NotOS/Projects/MobileSort/Diagrama-de-Classe/Diagrama-de-Classe/obj/Debug/net8.0/refint/Diagrama-de-Classe.dll
+/media/cauan/NotOS/Projects/MobileSort/Diagrama-de-Classe/Diagrama-de-Classe/obj/Debug/net8.0/Diagrama-de-Classe.pdb
+/media/cauan/NotOS/Projects/MobileSort/Diagrama-de-Classe/Diagrama-de-Classe/obj/Debug/net8.0/Diagrama-de-Classe.genruntimeconfig.cache
+/media/cauan/NotOS/Projects/MobileSort/Diagrama-de-Classe/Diagrama-de-Classe/obj/Debug/net8.0/ref/Diagrama-de-Classe.dll
