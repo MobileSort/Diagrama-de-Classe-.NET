@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Diagrama-de-Classe")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bb197fc93fef8a25b7ed8bfcbf09a24907098ba4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e0db5161512cf54a2533966bd3bc88ef0cc1b6a8")]
 [assembly: System.Reflection.AssemblyProductAttribute("Diagrama-de-Classe")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Diagrama-de-Classe")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
