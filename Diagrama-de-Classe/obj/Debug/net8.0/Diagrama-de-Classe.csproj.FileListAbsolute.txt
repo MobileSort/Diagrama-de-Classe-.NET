@@ -12,3 +12,4 @@
 /media/cauan/NotOS/Projects/MobileSort/Diagrama-de-Classe/Diagrama-de-Classe/obj/Debug/net8.0/Diagrama-de-Classe.pdb
 /media/cauan/NotOS/Projects/MobileSort/Diagrama-de-Classe/Diagrama-de-Classe/obj/Debug/net8.0/Diagrama-de-Classe.genruntimeconfig.cache
 /media/cauan/NotOS/Projects/MobileSort/Diagrama-de-Classe/Diagrama-de-Classe/obj/Debug/net8.0/ref/Diagrama-de-Classe.dll
+/media/cauan/NotOS/Projects/MobileSort/Diagrama-de-Classe/Diagrama-de-Classe/obj/Debug/net8.0/Diagrama-de-Classe.sourcelink.json
