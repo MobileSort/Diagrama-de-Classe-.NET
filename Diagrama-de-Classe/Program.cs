@@ -1,9 +1,12 @@
-﻿namespace Diagrama_de_Classe;
+﻿using Diagrama_de_Classe.UintTests;
+
+namespace Diagrama_de_Classe;
 
 internal class Program
 {
     static void Main(string[] args)
     {
-        // Call your test class here
+        DeviceTest test = new();
+        test.Start();
     }
 }
