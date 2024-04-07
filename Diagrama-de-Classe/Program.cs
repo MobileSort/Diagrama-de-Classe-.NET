@@ -6,7 +6,8 @@ internal class Program
 {
     static void Main(string[] args)
     {
-        DeviceTest test = new();
-        test.Start();
+        UserTest test1 = new();
+        test1.Test();
+        
     }
 }

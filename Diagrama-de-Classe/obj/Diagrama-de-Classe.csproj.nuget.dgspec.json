@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/media/cauan/NotOS/Projects/MobileSort/Diagrama-de-Classe/Diagrama-de-Classe/Diagrama-de-Classe.csproj": {}
+    "D:\\Program Files (x86)\\Jetbrains\\Projetos\\Diagrama-de-Classe-.NET\\Diagrama-de-Classe\\Diagrama-de-Classe.csproj": {}
   },
   "projects": {
-    "/media/cauan/NotOS/Projects/MobileSort/Diagrama-de-Classe/Diagrama-de-Classe/Diagrama-de-Classe.csproj": {
+    "D:\\Program Files (x86)\\Jetbrains\\Projetos\\Diagrama-de-Classe-.NET\\Diagrama-de-Classe\\Diagrama-de-Classe.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/media/cauan/NotOS/Projects/MobileSort/Diagrama-de-Classe/Diagrama-de-Classe/Diagrama-de-Classe.csproj",
+        "projectUniqueName": "D:\\Program Files (x86)\\Jetbrains\\Projetos\\Diagrama-de-Classe-.NET\\Diagrama-de-Classe\\Diagrama-de-Classe.csproj",
         "projectName": "Diagrama-de-Classe",
-        "projectPath": "/media/cauan/NotOS/Projects/MobileSort/Diagrama-de-Classe/Diagrama-de-Classe/Diagrama-de-Classe.csproj",
-        "packagesPath": "/home/cauan/.nuget/packages/",
-        "outputPath": "/media/cauan/NotOS/Projects/MobileSort/Diagrama-de-Classe/Diagrama-de-Classe/obj/",
+        "projectPath": "D:\\Program Files (x86)\\Jetbrains\\Projetos\\Diagrama-de-Classe-.NET\\Diagrama-de-Classe\\Diagrama-de-Classe.csproj",
+        "packagesPath": "C:\\Users\\Luigi\\.nuget\\packages\\",
+        "outputPath": "D:\\Program Files (x86)\\Jetbrains\\Projetos\\Diagrama-de-Classe-.NET\\Diagrama-de-Classe\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/cauan/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Luigi\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -53,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.103/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Users\\Luigi\\.dotnet\\sdk\\8.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
