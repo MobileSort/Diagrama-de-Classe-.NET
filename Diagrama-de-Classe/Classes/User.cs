@@ -1,11 +1,13 @@
 using System.Numerics;
+using Diagrama_de_Classe.Utils;
 
 namespace Diagrama_de_Classe.Classes;
 
 public class User
     (
         int id,
-        List<Tag> tags
+        List<Tag> tags,
+        List<Ordering> ord
         // List<string> fav   
         
     )
@@ -24,6 +26,13 @@ public class User
         
     }
 
+    public List<Ordering> Ord
+    {
+        get { return ord; }
+        set { ord = value; }
+        
+    }
+    
     // public List<string> Fav
     // {
     //     get { return fav;}
