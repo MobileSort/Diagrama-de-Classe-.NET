@@ -9,7 +9,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="UintTests\" />
+      <Folder Include="DataSource\Phone1\Midia\" />
     </ItemGroup>
 
 </Project>
