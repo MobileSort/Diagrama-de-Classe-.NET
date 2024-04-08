@@ -1,4 +1,5 @@
 using System.Diagnostics;
+using System.Runtime.CompilerServices;
 
 namespace Diagrama_de_Classe.Classes;
 
@@ -14,12 +15,9 @@ public class FileSorter
         set { connectedDevice = value; }
     }
     
-    public void MoveFiles(string filepath, string to)
+    public IndexTable MoveFiles(string filepath, string to)
     {
-        foreach (var movefile in IndexTable.MoveFile)
-        {
-            Console.WriteLine(MoveFiles());
-        }
+        return MoveFiles("","");
     }
 
     public void RemoveFiles(string[] filesToRemove)
@@ -40,3 +38,4 @@ public class FileSorter
         
     }
 }
+
