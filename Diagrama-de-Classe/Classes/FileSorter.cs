@@ -13,41 +13,19 @@ public class FileSorter
         get { return connectedDevice; }
         set { connectedDevice = value; }
     }
-
-    private static string filepath = @"C:\Projects\mobile_sort_\Diagrama-de-Classe\DataSource\Phone1\Midia\meuarquivo.txt";
     
-    
-    public void AddFiles(string[] filesToAdd)
+    public void MoveFiles(string filepath, string to)
     {
-        //TODO Chamar a tabela de indexação para chamar esse resultado
-        bool resultAdd = true;
-        
-        if (resultAdd)
+        foreach (var movefile in IndexTable.MoveFile)
         {
-            Console.WriteLine("Sucesso ao adicionar o arquivo no diretório.");
+            Console.WriteLine(MoveFiles());
         }
-        else
-        {
-            Console.WriteLine("Erro ao adicionar o aruqivo ao diretório");
-        }
-        
     }
 
     public void RemoveFiles(string[] filesToRemove)
     {
         //TODO Chamar a tabela de indexação para chamar esse resultado
-        bool resultAdd = true;
-
-        if (resultAdd)
-        {
-            Console.WriteLine("Sucesso ao deletar o arquivo no diretório.");
-        }
-        else
-        {
-            Console.WriteLine("Erro ao deletar o aruqivo ao diretório");
-        }
         
-        File.Delete(filepath);
     }
 
     public void OrganizeFiles()
@@ -60,8 +38,5 @@ public class FileSorter
     {
         //TODO Chamar a tabela de indexação para chamar esse resultado
         
-        
     }
-    
-    
 }
