@@ -6,6 +6,7 @@ namespace Diagrama_de_Classe.Classes;
 public class User
     (
         int id,
+        string name,
         List<Tag> tags,
         List<Ordering> ord
         // List<string> fav   
@@ -19,6 +20,13 @@ public class User
         
     }
 
+    public string Name
+    {
+        get { return name;}
+        set { name = value;}
+
+    }
+    
     public List<Tag> Tags
     {
         get { return tags;}

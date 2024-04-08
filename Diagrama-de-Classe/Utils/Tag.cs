@@ -3,7 +3,7 @@ namespace Diagrama_de_Classe.Classes;
 public class Tag
     (
         string name,
-        string color
+        string ext
         
     )
 {
@@ -14,11 +14,12 @@ public class Tag
         
     }
     
-    public string Color
+    public string Ext
     {
-        get { return color;}
-        set { color = value;}
-        
+        get { return ext; }
+        set { ext = value; }
+
     }
+
     
 }

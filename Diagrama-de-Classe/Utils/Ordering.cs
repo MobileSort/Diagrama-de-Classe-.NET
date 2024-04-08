@@ -6,18 +6,11 @@ namespace Diagrama_de_Classe.Utils;
 public class Ordering
     (
         List<Tag> tags, //puxa arquivo Tag.cs
-        List<string> ext,
         string name
         //add parametro diretorio Caua
             
     )
 {
-    public List<string> Ext
-    {
-        get { return ext; }
-        set { ext = value; }
-
-    }
 
     public string Name
     {
