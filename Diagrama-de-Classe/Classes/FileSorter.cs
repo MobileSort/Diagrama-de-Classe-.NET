@@ -4,10 +4,17 @@ using System.Runtime.CompilerServices;
 namespace Diagrama_de_Classe.Classes;
 
 public class FileSorter
-    (
-        Device connectedDevice
-    )
+
 {
+
+    private IndexTable table;
+    private Device connectedDevice;
+    
+    public FileSorter(Device deviceToConnect)
+    {
+        table = new IndexTable(ConnectedDevice);
+        connectedDevice = deviceToConnect;
+    }
     
     public Device ConnectedDevice
     {
@@ -15,14 +22,16 @@ public class FileSorter
         set { connectedDevice = value; }
     }
     
-    public IndexTable MoveFiles(string filepath, string to)
+
+    public bool MoveFiles(string filepath, string to)
     {
-        return MoveFiles("","");
+        IndexTable table = new(connectedDevice);
+        return table.MoveFile(filepath,to);
     }
 
     public void RemoveFiles(string[] filesToRemove)
     {
-        //TODO Chamar a tabela de indexação para chamar esse resultado
+        
         
     }
 
