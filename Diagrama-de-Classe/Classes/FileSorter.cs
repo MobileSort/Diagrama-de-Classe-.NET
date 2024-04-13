@@ -23,27 +23,39 @@ public class FileSorter
     }
     
 
-    public bool MoveFiles(string filepath, string to)
+    //TODO maybe change the parameters to use LocalDirectory
+    /// <param name="filesToMovePath">Array with the full path of the files you wish to move.</param>
+    /// <param name="destination">The directory witch the files will move to.</param>
+    public List<bool> MoveFilesToDirectory(string[] filesToMovePath, string destination)
     {
-        IndexTable table = new(connectedDevice);
-        return table.MoveFile(filepath,to);
+        List<bool> results = [];
+        foreach (var filePath in filesToMovePath)
+        {
+            string[] filePathSplit = filePath.Split("/");
+            string filePathTo = destination + filePathSplit[^1];
+            results.Add(table.MoveFile(filePath,filePathTo));
+        }
+        return results;
     }
 
-    public void RemoveFiles(string[] filesToRemove)
+    public List<bool> RemoveFiles(string[] filesToRemovePath)
     {
-        
-        
+        List<bool> results = [];
+        foreach (var filePath in filesToRemovePath)
+        {
+            results.Add(table.RemoveFile(filePath));
+        }
+        return results; 
     }
 
     public void OrganizeFiles()
     {
-        //TODO Chamar a tabela de indexação para chamar esse resultado
-
+        //TODO use Organize class
     }
 
     public void SearchFiles(string searchTerm)
     {
-        //TODO Chamar a tabela de indexação para chamar esse resultado
+        //TODO Use Search class
         
     }
 }

@@ -9,7 +9,10 @@ public class FileSorterTest
 {
     public void TestOrganize()
     {
-        
+        FileSorter test = new(new Device(1,DeviceTypes.Phone));
+        string path = Environment.CurrentDirectory + "/../../../DataSource/Phone1/Storage/";
+        string[] files = [path+"NewDirectory1/NewFile1.txt", path+"NewDirectory1/file2.txt"];
+
         // Console.WriteLine("Choose the action you want to do:");
         // Console.WriteLine("");
         // Console.WriteLine("1: Move Files");
@@ -26,16 +29,21 @@ public class FileSorterTest
         //         break;    
         //     case 2: break;
         // }
-
-        FileSorter test = new(new Device(1,DeviceTypes.Phone));
-        string path = Environment.CurrentDirectory + "/../../../DataSource/Phone1/Storage/";
         
-        string file = path+"NewDirectory1/file.txt";
-        string to = path + "NewDirectory2/file.txt";
+        //MoveFiles
+        // string to = path + "NewDirectory1/";
+        //
+        // List<bool> results = test.MoveFilesToDirectory(files,to);
+        //     
+        // foreach (var result in results)
+        // {
+        //     Console.WriteLine(result);
         
-        bool result = test.MoveFiles(file,to);
-        
-        Console.WriteLine(result);
-
+        //DeleteFiles
+        // List<bool> results = test.RemoveFiles(files);
+        // foreach (var result in results)
+        // {
+        //     Console.WriteLine(result);
+        // }
     }
 }
