@@ -5,8 +5,7 @@ namespace Diagrama_de_Classe.Classes;
 public class Device(
     int id,
     DeviceTypes type
-    //TODO call This class on FileSorter and that class behavior changes based on the device type
-    )
+)
 {
     public int Id
     {

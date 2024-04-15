@@ -10,7 +10,7 @@
 
     <ItemGroup>
       <Folder Include="DataSource\Phone1\Midia\" />
-      <Folder Include="DataSource\Phone1\Storage\NewDirectory2\" />
+      <Folder Include="DataSource\Phone1\Storage\NewDirectory1\NewDirectory1.1\" />
     </ItemGroup>
 
 </Project>

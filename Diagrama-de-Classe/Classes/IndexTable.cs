@@ -16,9 +16,9 @@ public class IndexTable(
         set { device = value; }
     }
 
-    public List<LocalDirectory> GetDirectory(string path)
+    public LocalDirectory GetDirectory(string path)
     {
-        List<LocalDirectory> directories = [];
+        LocalDirectory directory = new("","");
 
         switch (device.Type)
         {
@@ -30,7 +30,7 @@ public class IndexTable(
                 break;
         }
 
-        return directories;
+        return directory;
     }
 
     public bool MoveFile(string filePath, string to)
@@ -72,17 +72,28 @@ public class IndexTable(
             return true;
         }	
     }
-    private List<LocalDirectory> ReadDirectory(string path)
+    private LocalDirectory ReadDirectory(string path)
     {
-        List<LocalDirectory> localDirectories = new();
         string[] directories = Directory.GetDirectories(path);
-        foreach (var directory in directories)
+        List<LocalDirectory> localDirectories = new();
+        foreach (var directoryName in directories)
         {
-            DirectoryInfo dirinfo = new DirectoryInfo(directory);
-            LocalDirectory dir = new(directory, dirinfo.Name, new List<Tag>());
+            DirectoryInfo dirinfo = new DirectoryInfo(directoryName);
+            LocalDirectory dir = new(directoryName, dirinfo.Name);
             localDirectories.Add(dir);
         }
+        string[] files = Directory.GetFiles(path);
+        List<LocalFile> localFiles = [];
+        foreach (var file in files)
+        {
+            FileInfo fileInfo = new FileInfo(file);
+            LocalFile dir = new(fileInfo.FullName, fileInfo.Name, fileInfo.Extension);
+            localFiles.Add(dir);
+        }
+        
+        string name = path.Split("/")[^1];
+        LocalDirectory directory = new(path, name, localDirectories, localFiles);
 
-        return localDirectories;
+        return directory;
     }
 }
